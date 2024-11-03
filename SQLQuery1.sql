@@ -8,4 +8,4 @@ left join invoice as i
 on c.customer_id=i.customer_id)
 select Name,country,total
 from cte
-where rank_no =1;
+where rank_no =1; 
